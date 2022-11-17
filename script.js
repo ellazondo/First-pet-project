@@ -1,14 +1,13 @@
-function sayGreeting() {
-  let firstName = prompt("What is your first name?");
-  if (firstName.length > 1) {
-    alert(`Hello ${firstName}!`);
+function search(event) {
+  event.preventDefault();
+  let searchInput = document.querySelector("#search-city-input");
+  let header = document.querySelector("header");
+  if (searchInput.value) {
+    header.innerHTML = `${searchInput.value}`;
+  } else {
+    alert("Please type a city");
   }
 }
 
-sayGreeting();
-
-function signUp(event) {
-  event.preventDefault();
-  let input = document.querySelector("#email");
-  console.log(input.value);
-}
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", search);

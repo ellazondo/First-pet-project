@@ -1,8 +1,83 @@
-body {
-  background: blue;
+h1 {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
-h1 {
+p {
+  max-width: 400px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h3,
+p {
   text-align: center;
   font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #975a5e;
+  line-height: 30px;
+}
+
+.cutebox {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 75px;
+  margin-bottom: 70px;
+  padding-bottom: 100px;
+  border: 1px solid #975a5e;
+  border-radius: 50px;
+  border-radius: 5%;
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+.profilepic {
+  width: 300px;
+  margin: auto;
+  display: block;
+  border-radius: 100px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 40px;
+}
+
+#footer {
+  margin-top: 300px;
+}
+
+.center-form {
+  width: 300px;
+  margin: auto;
+  display: block;
+  margin-left: 350px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.insta-hollie {
+  margin: auto;
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+#current-city {
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #975a5e;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.btn:hover {
+  color: #975a5e;
 }

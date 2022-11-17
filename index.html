@@ -8,9 +8,9 @@
   <body>
     <div class="cutebox">
       <h1>My personal website</h1>
-      <img src="./img/floatingme.png" />
+      <img src="./img/floatingme.png" class="profilepic" />
       <p>
-        Welcome to the site of Gabriella Elizondo. I have an incredible idea for
+        Welcome to the site of Gabriella Elizondo. I have a really fun idea for
         my pet project but I am affraid to share it as I feel like its a pretty
         dope idea. The app has already been done However, I have ideas that
         would make it so much cooler. For now, how about we just have a small
@@ -18,25 +18,32 @@
       </p>
 
       <br />
+    </div>
+    <div class="cutebox">
       <h3>Take a peak at what I'm working on:</h3>
-      <form>
+      <form class="center-form" id="search-form">
         <input
-          type="search"
+          type="text"
           placeholder="Type your city..."
           class="form-control"
-          id="city-input"
+          id="search-city-input"
           autocomplete="off"
         />
-        <input type="submit" value="Search" class="btn btn-primary w-100" />
+        <input type="submit" value="Search" class="btn" />
       </form>
-      <header id="city-input"></header>
-      <div id="footer">
-        <p>Are you curious or want to get involved in the process?</p>
+      <header id="current-city"></header>
+      <img
+        src="./img/hollieM.png"
+        alt="instagram photo of Hollie Mercedes"
+        class="insta-hollie"
+      />
+    </div>
+    <div id="footer">
+      <p>Are you curious or want to get involved in the process?</p>
 
-        <button>
-          <a ="mailto:g.ellazondo@gmail.com">Let's get in touch!</a>
-        </button>
-      </div>
+      <button>
+        <a ="mailto:g.ellazondo@gmail.com">Let's get in touch!</a>
+      </button>
     </div>
     <script src="./script.js"></script>
   </body>
